@@ -1,0 +1,550 @@
+/* ==========================================================
+   style.css — হালকা ও গাঢ়ো দুই থিম সমর্থন করে
+   ========================================================== */
+
+:root {
+  --bg: #f1f5f9;
+  --header-bg: #0f172a;
+  --header-text: #ffffff;
+  --surface: #ffffff;
+  --surface-muted: #f1f5f9;
+  --text: #0f172a;
+  --text-muted: #64748b;
+  --border: #e2e8f0;
+
+  --status-new: #64748b;
+  --status-interested: #2563eb;
+  --status-applied: #16a34a;
+  --status-not-interested: #94a3b8;
+  --warning: #d97706;
+  --danger: #dc2626;
+  --deadline-color: #dc2626;
+
+  --radius: 12px;
+  --tap-min: 44px;
+}
+
+[data-theme="dark"] {
+  --bg: #0b0f19;
+  --header-bg: #05070d;
+  --header-text: #ffffff;
+  --surface: #161b26;
+  --surface-muted: #0f1420;
+  --text: #f1f5f9;
+  --text-muted: #94a3b8;
+  --border: #2a3242;
+
+  --status-new: #94a3b8;
+  --status-interested: #60a5fa;
+  --status-applied: #4ade80;
+  --status-not-interested: #64748b;
+  --warning: #fbbf24;
+  --danger: #f87171;
+  --deadline-color: #f87171;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans Bengali",
+    "SolaimanLipi", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  padding-bottom: 32px;
+}
+
+header {
+  background: var(--header-bg);
+  color: var(--header-text);
+  padding: 20px 16px 16px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header .top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+header h1 {
+  margin: 0 0 4px;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+header .subtitle {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+
+.theme-toggle {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--header-text);
+  border-radius: 999px;
+  min-width: var(--tap-min);
+  min-height: var(--tap-min);
+  font-size: 1.1rem;
+  cursor: pointer;
+  flex: none;
+}
+
+.notify-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 12px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+}
+
+.notify-bar span {
+  font-size: 0.85rem;
+  color: #e2e8f0;
+}
+
+.btn {
+  border: none;
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  min-height: var(--tap-min);
+  min-width: var(--tap-min);
+}
+
+.btn-primary {
+  background: var(--status-interested);
+  color: white;
+}
+
+.btn-success {
+  background: var(--status-applied);
+  color: white;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: white;
+}
+
+.tabs {
+  display: flex;
+  gap: 6px;
+  padding: 12px 16px 0;
+  overflow-x: auto;
+}
+
+.tab {
+  flex: none;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  min-height: var(--tap-min);
+  white-space: nowrap;
+}
+
+.tab.active {
+  background: var(--header-bg);
+  color: white;
+  border-color: var(--header-bg);
+}
+
+.status-bar {
+  margin: 12px 16px 0;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.status-bar .error {
+  color: var(--danger);
+}
+
+main {
+  padding: 12px 16px 24px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 48px 16px;
+  color: var(--text-muted);
+}
+
+.card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 16px;
+  margin-bottom: 12px;
+  border: 1px solid var(--border);
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.card-site {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--status-interested);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 3px 9px;
+  border-radius: 999px;
+  color: white;
+  white-space: nowrap;
+}
+
+.badge-new {
+  background: var(--status-new);
+}
+.badge-interested {
+  background: var(--status-interested);
+}
+.badge-applied {
+  background: var(--status-applied);
+}
+.badge-not_interested {
+  background: var(--status-not-interested);
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 4px;
+  line-height: 1.4;
+}
+
+.card-deadline {
+  font-size: 0.88rem;
+  font-style: italic;
+  font-weight: 600;
+  color: var(--deadline-color);
+  margin: 0 0 8px;
+}
+
+.card-details {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.card-details div {
+  margin-bottom: 2px;
+}
+
+.card-warning {
+  font-size: 0.8rem;
+  color: var(--warning);
+  margin-bottom: 8px;
+}
+
+.card-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.card-actions .btn {
+  flex: 1;
+  min-width: 100px;
+}
+
+.btn-ghost {
+  background: var(--surface-muted);
+  color: var(--text);
+}
+
+.card-link {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 0.85rem;
+  color: var(--status-interested);
+  text-decoration: none;
+}
+
+.toast {
+  position: fixed;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--header-bg);
+  color: white;
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+  max-width: 90%;
+  text-align: center;
+}
+
+.toast.show {
+  opacity: 1;
+}
+
+:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 2px;
+}
+
+/* ---------- চ্যাট বাটন ও প্যানেল ---------- */
+
+.chat-fab {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--status-interested);
+  color: white;
+  border: none;
+  font-size: 1.4rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  z-index: 20;
+}
+
+.chat-panel {
+  position: fixed;
+  inset: 0;
+  background: var(--surface-muted);
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-panel.hidden {
+  display: none;
+}
+
+.chat-header {
+  background: var(--header-bg);
+  color: white;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+}
+
+.chat-close-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  min-height: var(--tap-min);
+  min-width: var(--tap-min);
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.chat-bubble {
+  max-width: 85%;
+  padding: 10px 14px;
+  border-radius: 14px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.chat-assistant {
+  align-self: flex-start;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-bottom-left-radius: 4px;
+}
+
+.chat-user {
+  align-self: flex-end;
+  background: var(--status-interested);
+  color: white;
+  border-bottom-right-radius: 4px;
+}
+
+.chat-form {
+  display: flex;
+  gap: 8px;
+  padding: 12px 16px;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+}
+
+.chat-form input {
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  min-height: var(--tap-min);
+}
+
+.chat-form input:disabled {
+  opacity: 0.6;
+}
+
+/* ---------- পিডিএফ বিস্তারিত-দেখার প্যানেল ---------- */
+
+.detail-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.pdf-page-canvas {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.detail-loading {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  padding: 32px 0;
+}
+
+.detail-error {
+  color: var(--danger);
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 32px 16px;
+}
+
+.detail-note {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+.detail-download-link {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  background: var(--status-interested);
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  min-height: var(--tap-min);
+}
+
+/* ---------- সাইট ম্যানেজমেন্ট প্যানেল ---------- */
+
+.sites-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+}
+
+.add-site-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
+}
+
+.add-site-form input {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  min-height: var(--tap-min);
+  background: var(--bg);
+  color: var(--text);
+}
+
+.add-site-form button {
+  margin-top: 4px;
+}
+
+.sites-hint {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin: 10px 2px 16px;
+}
+
+.sites-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.site-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+}
+
+.site-row-info {
+  min-width: 0;
+}
+
+.site-row-name {
+  font-size: 0.92rem;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.site-row-url {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  overflow-wrap: anywhere;
+}
+
+.btn-remove-site {
+  flex: none;
+  font-size: 0.78rem;
+  padding: 8px 12px;
+}
