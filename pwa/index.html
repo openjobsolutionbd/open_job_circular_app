@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>চাকরির খবর</title>
+<meta name="theme-color" content="#0f172a" />
+<link rel="manifest" href="/manifest.json" />
+<link rel="icon" href="/icon-192.png" />
+<link rel="apple-touch-icon" href="/icon-192.png" />
+<link rel="stylesheet" href="/style.css" />
+<script>
+  // পেজ আঁকার আগেই সংরক্ষিত থিম বসিয়ে দেওয়া হচ্ছে, নাহলে প্রথমে একটা
+  // থিম দেখিয়ে পরে বদলে গেলে চোখে খারাপ লাগে (flash)
+  (function () {
+    var saved = localStorage.getItem("theme");
+    var theme = saved || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    document.documentElement.setAttribute("data-theme", theme);
+  })();
+</script>
+</head>
+<body>
+
+<header>
+  <div class="top-row">
+    <div>
+      <h1>চাকরির খবর</h1>
+      <p class="subtitle" id="header-subtitle">তথ্য লোড হচ্ছে...</p>
+    </div>
+    <button class="theme-toggle" id="theme-toggle" aria-label="থিম বদলান">🌙</button>
+  </div>
+
+  <div class="notify-bar">
+    <span id="notify-text">রিমাইন্ডার পেতে নোটিফিকেশন চালু করুন</span>
+    <button class="btn btn-outline" id="notify-btn">চালু করুন</button>
+  </div>
+</header>
+
+<nav class="tabs" id="tabs">
+  <button class="tab active" data-tab="new">নতুন</button>
+  <button class="tab" data-tab="interested">আগ্রহী</button>
+  <button class="tab" data-tab="applied">আবেদন করেছি</button>
+  <button class="tab" data-tab="not_interested">প্রয়োজন নেই</button>
+  <button class="tab" data-tab="all">সব</button>
+  <button class="tab tab-manage-sites" id="manage-sites-btn">⚙️ সাইট</button>
+</nav>
+
+<p class="status-bar" id="status-bar"></p>
+
+<main id="main-content">
+  <div class="empty-state">তথ্য লোড হচ্ছে...</div>
+</main>
+
+<div class="toast" id="toast"></div>
+
+<!-- সরকারি সাইট ম্যানেজ করার প্যানেল -->
+<div id="sites-panel" class="chat-panel hidden">
+  <div class="chat-header">
+    <span>⚙️ সরকারি সাইট ম্যানেজ করুন</span>
+    <button id="sites-close" class="chat-close-btn" aria-label="বন্ধ করুন">✕</button>
+  </div>
+  <div class="sites-content">
+    <form id="add-site-form" class="add-site-form">
+      <input id="site-name-input" type="text" placeholder="নাম (যেমন: শিক্ষা মন্ত্রণালয়)" autocomplete="off" />
+      <input id="site-url-input" type="text" placeholder="ওয়েবসাইটের ঠিকানা (যেমন: https://example.gov.bd)" autocomplete="off" />
+      <button type="submit" class="btn btn-primary">➕ যোগ করুন</button>
+    </form>
+    <p class="sites-hint">নতুন সাইট যোগ করলে পরদিনের দৈনিক সংগ্রহ থেকেই সেই সাইট চেক করা শুরু হবে।</p>
+    <div id="sites-list" class="sites-list">
+      <div class="empty-state">তালিকা লোড হচ্ছে...</div>
+    </div>
+  </div>
+</div>
+
+<!-- চ্যাট বাটন ও প্যানেল -->
+<button id="chat-fab" class="chat-fab" aria-label="প্রশ্ন করুন">💬</button>
+
+<div id="chat-panel" class="chat-panel hidden">
+  <div class="chat-header">
+    <span>🤖 প্রশ্ন করুন</span>
+    <button id="chat-close" class="chat-close-btn" aria-label="বন্ধ করুন">✕</button>
+  </div>
+  <div id="chat-messages" class="chat-messages">
+    <div class="chat-bubble chat-assistant">
+      আপনার সার্কুলার নিয়ে যেকোনো প্রশ্ন করতে পারেন — যেমন "এই সপ্তাহে কোনগুলোর শেষ তারিখ?" বা "কতগুলোতে আবেদন করেছি?"
+    </div>
+  </div>
+  <form id="chat-form" class="chat-form">
+    <input id="chat-input" type="text" placeholder="প্রশ্ন লিখুন..." autocomplete="off" />
+    <button type="submit" class="btn btn-primary">পাঠান</button>
+  </form>
+</div>
+
+<!-- পিডিএফ বিস্তারিত দেখার প্যানেল -->
+<div id="detail-panel" class="chat-panel hidden">
+  <div class="chat-header">
+    <span id="detail-title-bar">বিস্তারিত</span>
+    <button id="detail-close" class="chat-close-btn" aria-label="বন্ধ করুন">✕</button>
+  </div>
+  <div id="detail-content" class="detail-content"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+  if (window.pdfjsLib) {
+    pdfjsLib.GlobalWorkerOptions.workerSrc =
+      "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+  }
+</script>
+<script src="/app.js"></script>
+<script src="/chat.js"></script>
+<script src="/pdf-viewer.js"></script>
+<script src="/sites.js"></script>
+</body>
+</html>
