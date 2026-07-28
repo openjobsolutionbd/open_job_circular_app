@@ -3,16 +3,16 @@
 // ==========================================================
 // PWA-র চ্যাট বক্সে প্রশ্ন লিখলে এখানে আসে। এই ফাংশন —
 //   ১. গিটহাব থেকে বর্তমান সার্কুলারের তথ্য আনে
-//   ২. সেই তথ্যসহ প্রশ্নটা Anthropic API-তে (Claude) পাঠায়
+//   ২. সেই তথ্যসহ প্রশ্নটা DeepSeek API-তে পাঠায়
 //   ৩. উত্তরটা ফেরত পাঠায়
 //
-// এর জন্য Cloudflare-এ ANTHROPIC_API_KEY এনভায়রনমেন্ট ভ্যারিয়েবল
+// এর জন্য Cloudflare-এ DEEPSEEK_API_KEY এনভায়রনমেন্ট ভ্যারিয়েবল
 // (নিজের API key) সেট করা থাকতে হবে।
 // ==========================================================
 
 import { fetchDb, isAuthorized, jsonResponse } from "../_utils.js";
 
-const MODEL = "claude-sonnet-5";
+const MODEL = "deepseek-chat";
 const MAX_CIRCULARS = 300; // প্রশ্নের সাথে পাঠানো তথ্যের একটা সীমা, খরচ/গতি ঠিক রাখতে
 
 export async function onRequestPost(context) {
@@ -34,9 +34,9 @@ export async function onRequestPost(context) {
     return jsonResponse({ error: "প্রশ্ন খালি" }, 400);
   }
 
-  if (!env.ANTHROPIC_API_KEY) {
+  if (!env.DEEPSEEK_API_KEY) {
     return jsonResponse(
-      { error: "AI বৈশিষ্ট্য এখনো চালু করা হয়নি (Cloudflare-এ ANTHROPIC_API_KEY সেট করা নেই)" },
+      { error: "AI বৈশিষ্ট্য এখনো চালু করা হয়নি (Cloudflare-এ DEEPSEEK_API_KEY সেট করা নেই)" },
       500
     );
   }
@@ -73,18 +73,19 @@ applied/not_interested), first_seen (কবে প্রথম দেখা গ�
 ${JSON.stringify(circulars)}`;
 
   try {
-    const res = await fetch("https://api.anthropic.com/v1/messages", {
+    const res = await fetch("https://api.deepseek.com/chat/completions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "x-api-key": env.ANTHROPIC_API_KEY,
-        "anthropic-version": "2023-06-01",
+        "Authorization": `Bearer ${env.DEEPSEEK_API_KEY}`,
       },
       body: JSON.stringify({
         model: MODEL,
         max_tokens: 1024,
-        system: systemPrompt,
-        messages: [{ role: "user", content: question }],
+        messages: [
+          { role: "system", content: systemPrompt },
+          { role: "user", content: question },
+        ],
       }),
     });
 
@@ -95,10 +96,7 @@ ${JSON.stringify(circulars)}`;
 
     const data = await res.json();
     const answer =
-      (data.content || [])
-        .filter((block) => block.type === "text")
-        .map((block) => block.text)
-        .join("\n") || "উত্তর তৈরি করা যায়নি।";
+      data.choices?.[0]?.message?.content || "উত্তর তৈরি করা যায়নি।";
 
     return jsonResponse({ answer });
   } catch (e) {
