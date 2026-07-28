@@ -17,7 +17,7 @@ const APP_SECRET = "এখানে_নিজের_একটা_গোপন_�
 
 // আপনার নিজের ব্রাউজার থেকে পাওয়া VAPID পাবলিক-কি (এটা তৈরি করা হয়ে
 // গেছে, এটাই ব্যবহার করুন - আলাদা কিছু বসাতে হবে না)
-const VAPID_PUBLIC_KEY = "BE6CnxhcgU5adBRYJx2zuk6cpLbXhp45ZIa_mcbvBMYtCeD56MEfOWtkm1eK_bZny_Ec960qTlqQWzgAGcW0YWI";
+const VAPID_PUBLIC_KEY = "BJPklUn217PXc-A0HkduoilAanBomrdCeqSkEYvNRd5oTmW1D1uJQ30OdLMdav8gOD3SoX4WD6I3eBXXIrNnQ-o";
 
 const TAB_ORDER = ["new", "interested", "applied", "not_interested", "all"];
 const STATUS_LABEL = {
