@@ -1,0 +1,51 @@
+name: সাপ্তাহিক রিপোর্ট
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    # প্রতি শুক্রবার সকাল ৯টা (বাংলাদেশ সময়) - UTC তে সকাল ৩টা
+    - cron: "0 3 * * 5"
+  workflow_dispatch:
+
+jobs:
+  send-weekly-report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: কোড ডাউনলোড করা
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: পাইথন সেটআপ করা
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: প্রয়োজনীয় লাইব্রেরি ইনস্টল করা
+        run: pip install pywebpush
+
+      - name: সাপ্তাহিক রিপোর্ট পাঠানো
+        env:
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          VAPID_CLAIMS_SUB: ${{ secrets.VAPID_CLAIMS_SUB }}
+        run: python weekly_report.py
+
+      - name: ডাটাবেজ পরিবর্তন হলে গিটহাবে জমা (commit) করা
+        run: |
+          git config user.name "chakri-khobor-bot"
+          git config user.email "chakri-khobor-bot@users.noreply.github.com"
+          git add pwa/job_database.json
+          git diff --cached --quiet || git commit -m "সাপ্তাহিক রিপোর্ট হালনাগাদ (পুরনো সাবস্ক্রিপশন সরানো হয়েছে)"
+
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase && git push; then
+              exit 0
+            fi
+            echo "push ব্যর্থ হয়েছে (চেষ্টা $attempt/5), কিছুক্ষণ পর আবার চেষ্টা করা হচ্ছে..."
+            git rebase --abort 2>/dev/null || true
+            sleep $((10 * attempt))
+          done
+          echo "৫ বার চেষ্টা করেও ডাটাবেজ commit/push করা যায়নি।"
+          exit 1
