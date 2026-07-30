@@ -22,6 +22,7 @@
 import os
 import re
 import io
+import time
 import requests
 import xml.etree.ElementTree as ET
 from urllib.parse import urljoin
@@ -49,6 +50,26 @@ DEADLINE_KEY = "আবেদনের শেষ তারিখ"
 FAILED_SITES = []
 
 
+def fetch_with_retry(url, timeout=45, max_retries=3, **kwargs):
+    """সাধারণ requests.get() এর বদলে এটা ব্যবহার করা হয় - বাংলাদেশ সরকারি
+    সাইটগুলো (.gov.bd) প্রায়ই ধীর বা সাময়িকভাবে অস্থির থাকে, বিশেষ করে
+    বিদেশি সার্ভার (যেমন GitHub Actions এর US/EU-ভিত্তিক runner) থেকে
+    যোগাযোগ করলে। একবার timeout/connection error হলেই সাথে সাথে হাল
+    ছেড়ে না দিয়ে, কিছুক্ষণ অপেক্ষা করে আবার চেষ্টা করা হয় - এতে সাময়িক
+    ধীরগতির কারণে পুরো সাইট বাদ পড়ে যাওয়ার সম্ভাবনা কমে।"""
+    last_error = None
+    for attempt in range(1, max_retries + 1):
+        try:
+            return requests.get(url, timeout=timeout, **kwargs)
+        except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
+            last_error = e
+            if attempt < max_retries:
+                wait_seconds = 5 * attempt
+                print(f"[তথ্য] {url} - চেষ্টা {attempt}/{max_retries} ব্যর্থ, {wait_seconds} সেকেন্ড পর আবার চেষ্টা করা হচ্ছে...")
+                time.sleep(wait_seconds)
+    raise last_error
+
+
 def is_job_news(text):
     text_to_check = text.lower()
     for word in JOB_KEYWORDS:
@@ -70,8 +91,8 @@ def extract_text_with_ocr(pdf_bytes, max_pages=3):
 
 def extract_pdf_text(pdf_url, max_chars=6000):
     try:
-        response = requests.get(
-            pdf_url, timeout=25, headers={"User-Agent": "Mozilla/5.0"}
+        response = fetch_with_retry(
+            pdf_url, timeout=45, headers={"User-Agent": "Mozilla/5.0"}
         )
         response.raise_for_status()
         pdf_bytes = response.content
@@ -148,7 +169,7 @@ def extract_job_details(pdf_text):
 def fetch_from_rss(source):
     results = []
     try:
-        response = requests.get(source["url"], timeout=15)
+        response = fetch_with_retry(source["url"], timeout=30)
         response.raise_for_status()
 
         root = ET.fromstring(response.content)
@@ -170,12 +191,22 @@ def fetch_from_rss(source):
 
 def fetch_from_gov_site(base_url):
     results = []
-    notice_url = base_url.rstrip("/") + "/pages/notices"
-    site_label = base_url.replace("https://", "").replace("http://", "").strip("/")
+
+    # বেশিরভাগ সরকারি সাইটে নোটিশ পাতার path হয় "/pages/notices", কিন্তু
+    # কিছু সাইটে (যেমন brdb.gov.bd) এটা ভিন্ন (যেমন "/site/view/notices")।
+    # তাই websites.txt এ যদি ইতিমধ্যে "notice" শব্দসহ একটা পূর্ণ URL
+    # দেওয়া থাকে, সেটাই সরাসরি ব্যবহার করা হচ্ছে; নাহলে আগের মতো ডিফল্ট
+    # path যোগ করা হচ্ছে (backward-compatible, বেশিরভাগ সাইটে এটাই কাজ করে)
+    if "notice" in base_url.lower():
+        notice_url = base_url
+    else:
+        notice_url = base_url.rstrip("/") + "/pages/notices"
+
+    site_label = base_url.replace("https://", "").replace("http://", "").split("/")[0].strip("/")
 
     try:
-        response = requests.get(
-            notice_url, timeout=20, headers={"User-Agent": "Mozilla/5.0"}
+        response = fetch_with_retry(
+            notice_url, timeout=45, headers={"User-Agent": "Mozilla/5.0"}
         )
         response.raise_for_status()
 
