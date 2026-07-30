@@ -19,12 +19,32 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-07-29"
+    },
+    "75658236b2bf": {
+      "id": "75658236b2bf",
+      "site": "প্রথম আলো",
+      "title": "বিদেশে চাকরির নামে প্রতারণা, হাতিয়ে নিচ্ছে লাখ লাখ টাকা",
+      "link": "https://www.prothomalo.com/bangladesh/yv6hj8ipg0",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-07-30"
+    },
+    "1bbfb72c9552": {
+      "id": "1bbfb72c9552",
+      "site": "প্রথম আলো",
+      "title": "ক্লিনিকে চাকরি করে বিশ্ববিদ্যালয়ে ভর্তি, কক্সবাজারের সেই নীলা রাখাইন পিএইচডি করবেন যুক্তরাষ্ট্রে",
+      "link": "https://www.prothomalo.com/bangladesh/district/fxufd0dmon",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-07-30"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-07-29",
-    "new_count": 1,
+    "date": "2026-07-30",
+    "new_count": 2,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
