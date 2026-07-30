@@ -39,16 +39,26 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-07-30"
+    },
+    "fc1bbef8fe5a": {
+      "id": "fc1bbef8fe5a",
+      "site": "প্রথম আলো",
+      "title": "অনলাইনে চাকরির বিজ্ঞপ্তিতে এক পদে প্রার্থী ২৮৭ জন",
+      "link": "https://www.prothomalo.com/business/economics/6k0poyqwqu",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-07-30"
     }
   },
   "push_subscriptions": [],
   "last_run": {
     "date": "2026-07-30",
-    "new_count": 2,
+    "new_count": 1,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
-        "error": "HTTPSConnectionPool(host='brdb.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+        "error": "HTTPSConnectionPool(host='brdb.gov.bd', port=443): Max retries exceeded with url: /site/view/notices (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
       },
       {
         "site": "dmlc.gov.bd",
@@ -87,8 +97,8 @@
         "error": "HTTPSConnectionPool(host='bkkb.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
       },
       {
-        "site": "dcd.gov.bd",
-        "error": "HTTPSConnectionPool(host='dcd.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+        "site": "dnc.gov.bd",
+        "error": "HTTPSConnectionPool(host='dnc.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
       }
     ]
   }
