@@ -49,11 +49,21 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-07-30"
+    },
+    "55452087e477": {
+      "id": "55452087e477",
+      "site": "প্রথম আলো",
+      "title": "খুলনা বিশ্ববিদ্যালয়ে যৌন হয়রানির অভিযোগের প্রমাণ পাওয়ায় শিক্ষক চাকরিচ্যুত",
+      "link": "https://www.prothomalo.com/bangladesh/district/sxya5nxmvq",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-07-31"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-07-30",
+    "date": "2026-07-31",
     "new_count": 1,
     "failed_sites": [
       {
