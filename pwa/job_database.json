@@ -93,9 +93,13 @@
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-08-04",
+    "date": "2026-08-05",
     "new_count": 0,
     "failed_sites": [
+      {
+        "site": "techedu.gov.bd",
+        "error": "503 Server Error: Backend fetch failed for url: https://techedu.gov.bd/pages/notices"
+      },
       {
         "site": "brdb.gov.bd",
         "error": "HTTPSConnectionPool(host='brdb.gov.bd', port=443): Max retries exceeded with url: /site/view/notices (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
