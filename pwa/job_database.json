@@ -89,17 +89,33 @@
       "is_pdf": true,
       "status": "new",
       "first_seen": "2026-08-03"
+    },
+    "f39c560ee0fa": {
+      "id": "f39c560ee0fa",
+      "site": "প্রথম আলো",
+      "title": "স্মার্ট চাকরি পেতে শিখুন এই ৬ প্রযুক্তিদক্ষতা",
+      "link": "https://www.prothomalo.com/chakri/chakri-suggestion/okk6f0glwh",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-08-06"
+    },
+    "9c02a93b29dd": {
+      "id": "9c02a93b29dd",
+      "site": "প্রথম আলো",
+      "title": "কানাডার চাকরির লোভ: প্রতারক থেকে সাবধান, জানুন কানাডার জব ভিসার প্রক্রিয়া",
+      "link": "https://www.prothomalo.com/chakri/chakri-suggestion/b6qpedsaua",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-08-06"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-08-05",
-    "new_count": 0,
+    "date": "2026-08-06",
+    "new_count": 2,
     "failed_sites": [
-      {
-        "site": "techedu.gov.bd",
-        "error": "503 Server Error: Backend fetch failed for url: https://techedu.gov.bd/pages/notices"
-      },
       {
         "site": "brdb.gov.bd",
         "error": "HTTPSConnectionPool(host='brdb.gov.bd', port=443): Max retries exceeded with url: /site/view/notices (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
