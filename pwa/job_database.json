@@ -109,12 +109,22 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-08-06"
+    },
+    "24e5b2b41bdd": {
+      "id": "24e5b2b41bdd",
+      "site": "প্রথম আলো",
+      "title": "ডিগ্রি থাকলেও মিলছে না চাকরি: দুশ্চিন্তায় দেশের লাখো বেকার",
+      "link": "https://www.prothomalo.com/chakri/chakri-news/jtui9et2nn",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-08-07"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-08-06",
-    "new_count": 2,
+    "date": "2026-08-07",
+    "new_count": 1,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
