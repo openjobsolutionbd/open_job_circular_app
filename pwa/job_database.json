@@ -129,12 +129,22 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-08-08"
+    },
+    "fed0ee9127d3": {
+      "id": "fed0ee9127d3",
+      "site": "প্রথম আলো",
+      "title": "২৫ পেরোলেই কি চাকরির বাজার কঠিন হয়ে যায়?",
+      "link": "https://www.prothomalo.com/chakri/chakri-news/4mz2ofynbt",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-08-10"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-08-09",
-    "new_count": 0,
+    "date": "2026-08-10",
+    "new_count": 1,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
