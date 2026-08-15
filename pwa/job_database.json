@@ -149,56 +149,66 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-08-14"
+    },
+    "b9c23acbeb87": {
+      "id": "b9c23acbeb87",
+      "site": "প্রথম আলো",
+      "title": "ডাচ্‌-বাংলা ব্যাংকে এমটিও পদে চাকরি, শুরুতেই বেতন ৭০ হাজার",
+      "link": "https://www.prothomalo.com/chakri/employment/t6x3cd28of",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-08-15"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-08-14",
+    "date": "2026-08-15",
     "new_count": 1,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
-        "error": "HTTPSConnectionPool(host='brdb.gov.bd', port=443): Max retries exceeded with url: /site/view/notices (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+        "error": "HTTPSConnectionPool(host='brdb.gov.bd', port=443): Max retries exceeded with url: /site/view/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='brdb.gov.bd', port=443) at 0x7f30d133cd10>, 'Connection to brdb.gov.bd timed out. (connect timeout=45)'))"
       },
       {
         "site": "dmlc.gov.bd",
-        "error": "HTTPSConnectionPool(host='dmlc.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+        "error": "HTTPSConnectionPool(host='dmlc.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='dmlc.gov.bd', port=443) at 0x7f30d134ef50>, 'Connection to dmlc.gov.bd timed out. (connect timeout=45)'))"
       },
       {
         "site": "bjri.gov.bd",
-        "error": "HTTPSConnectionPool(host='bjri.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+        "error": "HTTPSConnectionPool(host='bjri.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='bjri.gov.bd', port=443) at 0x7f30d133c550>, 'Connection to bjri.gov.bd timed out. (connect timeout=45)'))"
       },
       {
         "site": "dwa.gov.bd",
-        "error": "HTTPSConnectionPool(host='dwa.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+        "error": "HTTPSConnectionPool(host='dwa.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='dwa.gov.bd', port=443) at 0x7f30d1356110>, 'Connection to dwa.gov.bd timed out. (connect timeout=45)'))"
       },
       {
         "site": "cga.gov.bd",
-        "error": "HTTPSConnectionPool(host='cga.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+        "error": "HTTPSConnectionPool(host='cga.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='cga.gov.bd', port=443) at 0x7f30d133f010>, 'Connection to cga.gov.bd timed out. (connect timeout=45)'))"
       },
       {
         "site": "bgb.gov.bd",
-        "error": "HTTPSConnectionPool(host='bgb.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+        "error": "HTTPSConnectionPool(host='bgb.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='bgb.gov.bd', port=443) at 0x7f30d1362110>, 'Connection to bgb.gov.bd timed out. (connect timeout=45)'))"
       },
       {
         "site": "rajshahi.gov.bd",
-        "error": "HTTPSConnectionPool(host='rajshahi.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+        "error": "HTTPSConnectionPool(host='rajshahi.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='rajshahi.gov.bd', port=443) at 0x7f30d16acd90>, 'Connection to rajshahi.gov.bd timed out. (connect timeout=45)'))"
       },
       {
         "site": "bof.gov.bd",
-        "error": "HTTPSConnectionPool(host='bof.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+        "error": "HTTPSConnectionPool(host='bof.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='bof.gov.bd', port=443) at 0x7f30d1366090>, 'Connection to bof.gov.bd timed out. (connect timeout=45)'))"
       },
       {
         "site": "plancomm.gov.bd",
-        "error": "HTTPSConnectionPool(host='plancomm.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+        "error": "HTTPSConnectionPool(host='plancomm.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='plancomm.gov.bd', port=443) at 0x7f30d1357f50>, 'Connection to plancomm.gov.bd timed out. (connect timeout=45)'))"
       },
       {
         "site": "bkkb.gov.bd",
-        "error": "HTTPSConnectionPool(host='bkkb.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+        "error": "HTTPSConnectionPool(host='bkkb.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='bkkb.gov.bd', port=443) at 0x7f30d134e0d0>, 'Connection to bkkb.gov.bd timed out. (connect timeout=45)'))"
       },
       {
         "site": "dnc.gov.bd",
-        "error": "HTTPSConnectionPool(host='dnc.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+        "error": "HTTPSConnectionPool(host='dnc.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='dnc.gov.bd', port=443) at 0x7f30d140e9d0>, 'Connection to dnc.gov.bd timed out. (connect timeout=45)'))"
       }
     ]
   }
