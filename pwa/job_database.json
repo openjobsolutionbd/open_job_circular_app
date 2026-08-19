@@ -159,12 +159,22 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-08-15"
+    },
+    "84189c21aa16": {
+      "id": "84189c21aa16",
+      "site": "techedu.gov.bd",
+      "title": "কারিগরি শিক্ষা অধিদপ্তরাধীন সরকারি পলিটেকনিক ও মনোটেকনিক ইন্সটিটিউটসমূহের নন-ক্যাডারভুক্ত জুনিয়র ইন্সট্রাক্টর (টেক/নন-টেক) পদধারীদের খসড়া গ্রেডেশন/জ্যেষ্ঠতা তালিকা প্রকাশ",
+      "link": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-techedu/2026/7/87a871a3-5a61-4b0f-8556-50467272d808.pdf",
+      "details": {},
+      "is_pdf": true,
+      "status": "new",
+      "first_seen": "2026-08-19"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-08-18",
-    "new_count": 0,
+    "date": "2026-08-19",
+    "new_count": 1,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
