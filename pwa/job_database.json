@@ -199,12 +199,22 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-08-23"
+    },
+    "8888ad635b9f": {
+      "id": "8888ad635b9f",
+      "site": "প্রথম আলো",
+      "title": "বিসিএস ও চাকরির প্রস্তুতি ১০ ঘণ্টা নয়, প্রতিদিন এই ৫ ঘণ্টা কাজে লাগান",
+      "link": "https://www.prothomalo.com/chakri/chakri-suggestion/ct0xhcy14f",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-08-25"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-08-24",
-    "new_count": 0,
+    "date": "2026-08-25",
+    "new_count": 1,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
