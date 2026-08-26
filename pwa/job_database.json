@@ -209,11 +209,21 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-08-25"
+    },
+    "c61ab29ec6ce": {
+      "id": "c61ab29ec6ce",
+      "site": "প্রথম আলো",
+      "title": "হিসাব মহানিয়ন্ত্রকের কার্যালয়ে ৫৭৫ পদে চাকরি, পুনর্নিয়োগ বিজ্ঞপ্তিতে আবেদন শেষ ২৭ আগস্ট",
+      "link": "https://www.prothomalo.com/chakri/employment/hkdekl2rul",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-08-26"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-08-25",
+    "date": "2026-08-26",
     "new_count": 1,
     "failed_sites": [
       {
