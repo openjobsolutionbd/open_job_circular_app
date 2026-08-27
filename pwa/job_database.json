@@ -219,12 +219,32 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-08-26"
+    },
+    "7e6720c12e85": {
+      "id": "7e6720c12e85",
+      "site": "প্রথম আলো",
+      "title": "কারিগরি ও মাদ্রাসা শিক্ষা বিভাগে ২৬ পদে চাকরি, আবেদন শুরু ৩১ আগস্ট",
+      "link": "https://www.prothomalo.com/chakri/w6l0y0f9l6",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-08-27"
+    },
+    "ba3802fa7a4f": {
+      "id": "ba3802fa7a4f",
+      "site": "প্রথম আলো",
+      "title": "বিদ্যুৎ বিভাগের কোম্পানিগুলোর অভিন্ন চাকরিবিধি সংশোধনে ১০ সদস্যের কমিটি গঠন",
+      "link": "https://www.prothomalo.com/chakri/chakri-news/79frbvejol",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-08-27"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-08-26",
-    "new_count": 1,
+    "date": "2026-08-27",
+    "new_count": 2,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
