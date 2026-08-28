@@ -239,12 +239,22 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-08-27"
+    },
+    "b304df05efe1": {
+      "id": "b304df05efe1",
+      "site": "প্রথম আলো",
+      "title": "ওয়ালটন প্লাজায় ২০০ জনের চাকরি, আবেদন যেভাবে",
+      "link": "https://www.prothomalo.com/chakri/chakri-news/456n8nq2kl",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-08-28"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-08-27",
-    "new_count": 2,
+    "date": "2026-08-28",
+    "new_count": 1,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
