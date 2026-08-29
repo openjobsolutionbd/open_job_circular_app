@@ -249,11 +249,21 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-08-28"
+    },
+    "18f0c993a6fa": {
+      "id": "18f0c993a6fa",
+      "site": "প্রথম আলো",
+      "title": "পিংক বাস সার্ভিসে নারী চালক নিয়োগ, সরাসরি ইন্টারভিউতে চাকরি",
+      "link": "https://www.prothomalo.com/chakri/employment/bnnsde5y42",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-08-29"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-08-28",
+    "date": "2026-08-29",
     "new_count": 1,
     "failed_sites": [
       {
