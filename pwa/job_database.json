@@ -259,11 +259,21 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-08-29"
+    },
+    "089fe21902d9": {
+      "id": "089fe21902d9",
+      "site": "প্রথম আলো",
+      "title": "বাংলাদেশ হাইটেক পার্কে ৪২ পদে নিয়োগ, নবম–দশম গ্রেডের পদে লিখিত ও ভাইভায় নিয়োগ",
+      "link": "https://www.prothomalo.com/chakri/employment/xvu9oshi6u",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-08-30"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-08-29",
+    "date": "2026-08-30",
     "new_count": 1,
     "failed_sites": [
       {
