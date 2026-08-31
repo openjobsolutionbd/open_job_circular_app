@@ -269,12 +269,32 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-08-30"
+    },
+    "0e34aad89954": {
+      "id": "0e34aad89954",
+      "site": "প্রথম আলো",
+      "title": "আল–নাহিয়ান ট্রাস্টে বিজ্ঞপ্তি ছাড়াই চাকরি, পরে স্ত্রীসহ ৬ স্বজনকে নিয়োগ",
+      "link": "https://www.prothomalo.com/bangladesh/district/u6973plyhc",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-08-31"
+    },
+    "71dd4e85db1d": {
+      "id": "71dd4e85db1d",
+      "site": "প্রথম আলো",
+      "title": "চাকরির বাজার অনিশ্চিত : তরুণদের প্রস্তুতি নিয়ে জাতিসংঘের যে যে পর্যালোচনা",
+      "link": "https://www.prothomalo.com/chakri/chakri-news/if4ofzjcvk",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-08-31"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-08-30",
-    "new_count": 1,
+    "date": "2026-08-31",
+    "new_count": 2,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
