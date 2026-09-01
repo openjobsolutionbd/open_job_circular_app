@@ -289,11 +289,33 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-08-31"
+    },
+    "9a9c73f5ef0f": {
+      "id": "9a9c73f5ef0f",
+      "site": "প্রথম আলো",
+      "title": "কারিগরি শিক্ষা অধিদপ্তরে চাকরি, আবেদন ২১ সেপ্টেম্বর পর্যন্ত",
+      "link": "https://www.prothomalo.com/chakri/employment/jnth9a5e7w",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-09-01"
+    },
+    "e398bf9326df": {
+      "id": "e398bf9326df",
+      "site": "techedu.gov.bd",
+      "title": "কারিগরি শিক্ষা অধিদপ্তরাধীন ০৪টি ইঞ্জিনিয়ারিং কলেজ(সিলেট/ময়মনসিংহ/ফরিদপুর/বরিশাল) এর স্থায়ী/অস্থায়ী রাজস্ব খাতভুক্ত শূন্য পদের বিপরীতে নিয়োগ বিজ্ঞপ্তি",
+      "link": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-techedu/2026/7/8bbae467-e359-4afd-9c7a-73a0a2806920.pdf",
+      "details": {
+        "আবেদনের শেষ তারিখ": "২১/০৯/২০২৬"
+      },
+      "is_pdf": true,
+      "status": "new",
+      "first_seen": "2026-09-01"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-08-31",
+    "date": "2026-09-01",
     "new_count": 2,
     "failed_sites": [
       {
