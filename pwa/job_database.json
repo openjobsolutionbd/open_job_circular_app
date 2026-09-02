@@ -311,11 +311,31 @@
       "is_pdf": true,
       "status": "new",
       "first_seen": "2026-09-01"
+    },
+    "5b5e9741a9e5": {
+      "id": "5b5e9741a9e5",
+      "site": "প্রথম আলো",
+      "title": "টাঙ্গাইল চাকরি মেলা, সরাসরি চাকরি পেলেন ৪৪৬ জন, এক মাসে পাবেন আরও ১৫৮১",
+      "link": "https://www.prothomalo.com/chakri/chakri-news/e8v1eghiu2",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-09-02"
+    },
+    "c95f949708f9": {
+      "id": "c95f949708f9",
+      "site": "প্রথম আলো",
+      "title": "সরকারি চাকরি: নতুনদের বেতন বৃদ্ধির সুবিধা বেশি",
+      "link": "https://www.prothomalo.com/bangladesh/srkaari-caakri-ntunder-betn-brddhir-subidhaa-beshi",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-09-02"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-09-01",
+    "date": "2026-09-02",
     "new_count": 2,
     "failed_sites": [
       {
