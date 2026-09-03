@@ -331,12 +331,22 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-09-02"
+    },
+    "973bd1308004": {
+      "id": "973bd1308004",
+      "site": "প্রথম আলো",
+      "title": "সরকারি চাকরিজীবীদের বেতন বাড়বে, অর্থের জোগান আসবে কোথা থেকে?",
+      "link": "https://www.prothomalo.com/video/bangladesh/x05tkfhlrt",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-09-03"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-09-02",
-    "new_count": 2,
+    "date": "2026-09-03",
+    "new_count": 1,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
