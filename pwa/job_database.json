@@ -341,12 +341,32 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-09-03"
+    },
+    "cc938e4a78e2": {
+      "id": "cc938e4a78e2",
+      "site": "প্রথম আলো",
+      "title": "আইসিডিডিআরবিতে চুক্তিতে নিয়োগ, চাকরি পেলে বেতন ২ লাখ ৩৪ হাজার",
+      "link": "https://www.prothomalo.com/chakri/employment/5gg9xif6em",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-09-04"
+    },
+    "918124e4a6b0": {
+      "id": "918124e4a6b0",
+      "site": "techedu.gov.bd",
+      "title": "পুলিশ ভেরিফিকেশন রিপোর্টে বিরুপ মন্তব্য কারিগরি শিক্ষা অধিদপ্তর-কে অবহিত না করার কারণ ব্যাখ্যা প্রসঙ্গে",
+      "link": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-techedu/2026/8/90cb04ff-e1cb-4ed4-842d-064c0eb9ecd9.pdf",
+      "details": {},
+      "is_pdf": true,
+      "status": "new",
+      "first_seen": "2026-09-04"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-09-03",
-    "new_count": 1,
+    "date": "2026-09-04",
+    "new_count": 2,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
