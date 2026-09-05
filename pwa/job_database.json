@@ -361,12 +361,22 @@
       "is_pdf": true,
       "status": "new",
       "first_seen": "2026-09-04"
+    },
+    "e5dff9fcdf92": {
+      "id": "e5dff9fcdf92",
+      "site": "প্রথম আলো",
+      "title": "ইস্ট ওয়েস্ট ইউনিভার্সিটিতে বিভিন্ন পদে চাকরি, পদসংখ্যা ২৭",
+      "link": "https://www.prothomalo.com/chakri/employment/kq810kfu5t",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-09-05"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-09-04",
-    "new_count": 2,
+    "date": "2026-09-05",
+    "new_count": 1,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
