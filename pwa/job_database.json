@@ -421,12 +421,22 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-09-07"
+    },
+    "37358aa473fd": {
+      "id": "37358aa473fd",
+      "site": "প্রথম আলো",
+      "title": "এআই যুগে চাকরি নিয়ে ভয়, এই ১০ পেশায় ঝুঁকি কম",
+      "link": "https://www.prothomalo.com/chakri/chakri-suggestion/sfcdmzrivh",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-09-08"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-09-07",
-    "new_count": 2,
+    "date": "2026-09-08",
+    "new_count": 1,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
