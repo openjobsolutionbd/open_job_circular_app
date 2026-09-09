@@ -431,11 +431,21 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-09-08"
+    },
+    "8689ba6468c7": {
+      "id": "8689ba6468c7",
+      "site": "প্রথম আলো",
+      "title": "সরকারি চাকরিতে ১১ থেকে ২০ গ্রেডে ভাইভার নম্বর বাড়ছে: যোগ্য প্রার্থী বাছাই, নাকি নতুন ঝুঁকি?",
+      "link": "https://www.prothomalo.com/chakri/4zl57xec4d",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-09-09"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-09-08",
+    "date": "2026-09-09",
     "new_count": 1,
     "failed_sites": [
       {
