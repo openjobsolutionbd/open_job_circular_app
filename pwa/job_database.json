@@ -441,11 +441,21 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-09-09"
+    },
+    "936ffc748c21": {
+      "id": "936ffc748c21",
+      "site": "প্রথম আলো",
+      "title": "চাকরি না, নিজ দায়িত্বেই মানুষকে মহাসড়ক পার করে দেন তিনি",
+      "link": "https://www.prothomalo.com/video/bangladesh/y7i8hpp7ym",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-09-10"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-09-09",
+    "date": "2026-09-10",
     "new_count": 1,
     "failed_sites": [
       {
