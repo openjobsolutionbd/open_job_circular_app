@@ -481,12 +481,22 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-09-14"
+    },
+    "6ea87f3ab978": {
+      "id": "6ea87f3ab978",
+      "site": "প্রথম আলো",
+      "title": "পরিবেশ সাংবাদিকতায় আন্তর্জাতিক চাকরির সুযোগ বাড়ছে, দরকার বিশেষায়িত দক্ষতা",
+      "link": "https://www.prothomalo.com/chakri/chakri-interview/72myaed2ki",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-09-15"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-09-14",
-    "new_count": 3,
+    "date": "2026-09-15",
+    "new_count": 1,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
