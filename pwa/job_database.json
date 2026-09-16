@@ -491,11 +491,21 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-09-15"
+    },
+    "aa0a445e26ab": {
+      "id": "aa0a445e26ab",
+      "site": "প্রথম আলো",
+      "title": "জাতীয় বিশ্ববিদ্যালয়ে চাকরির সুযোগ, দেখুন আবেদনের যোগ্যতা",
+      "link": "https://www.prothomalo.com/chakri/employment/k78vk2sei9",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-09-16"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-09-15",
+    "date": "2026-09-16",
     "new_count": 1,
     "failed_sites": [
       {
