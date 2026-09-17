@@ -501,11 +501,21 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-09-16"
+    },
+    "48e3c9ebbdbe": {
+      "id": "48e3c9ebbdbe",
+      "site": "প্রথম আলো",
+      "title": "করুণা নয়, মেধা ও যোগ্যতার ভিত্তিতে একটি চাকরি চান দৃষ্টিপ্রতিবন্ধী মিজান",
+      "link": "https://www.prothomalo.com/bangladesh/district/pi9ivj4dgb",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-09-17"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-09-16",
+    "date": "2026-09-17",
     "new_count": 1,
     "failed_sites": [
       {
