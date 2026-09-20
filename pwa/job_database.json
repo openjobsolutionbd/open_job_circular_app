@@ -531,12 +531,22 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-09-19"
+    },
+    "77ba61e0e853": {
+      "id": "77ba61e0e853",
+      "site": "প্রথম আলো",
+      "title": "নতুন চাকরিতে যোগদানের আড়াই ঘণ্টা পর ছাঁটাই",
+      "link": "https://www.prothomalo.com/world/usa/bhyi6u8yad",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-09-20"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-09-19",
-    "new_count": 2,
+    "date": "2026-09-20",
+    "new_count": 1,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
