@@ -541,12 +541,32 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-09-20"
+    },
+    "430c597f1ed3": {
+      "id": "430c597f1ed3",
+      "site": "প্রথম আলো",
+      "title": "ব্রাহ্মণবাড়িয়া জেলা প্রশাসকের অধীনে চাকরির সুযোগ",
+      "link": "https://www.prothomalo.com/chakri/employment/155hhc23si",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-09-21"
+    },
+    "4913b28be3e1": {
+      "id": "4913b28be3e1",
+      "site": "প্রথম আলো",
+      "title": "সরকারি চাকরিতে সর্বনিম্ন বেতন ৩৩ হাজার টাকা, সর্বোচ্চ কত",
+      "link": "https://www.prothomalo.com/video/bangladesh/f2q25khot4",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-09-21"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-09-20",
-    "new_count": 1,
+    "date": "2026-09-21",
+    "new_count": 2,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
