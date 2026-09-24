@@ -611,12 +611,22 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-09-23"
+    },
+    "7b87787be5a9": {
+      "id": "7b87787be5a9",
+      "site": "প্রথম আলো",
+      "title": "নৌপরিবহন মন্ত্রণালয়ে ৩৫ জনের স্থায়ী চাকরি, নিয়োগ নতুন পে স্কেলে",
+      "link": "https://www.prothomalo.com/chakri/employment/5gx08e2zty",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-09-24"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-09-23",
-    "new_count": 3,
+    "date": "2026-09-24",
+    "new_count": 1,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
@@ -628,7 +638,7 @@
       },
       {
         "site": "bjri.gov.bd",
-        "error": "HTTPSConnectionPool(host='bjri.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+        "error": "HTTPSConnectionPool(host='bjri.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by NewConnectionError(\"HTTPSConnection(host='bjri.gov.bd', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
       },
       {
         "site": "dwa.gov.bd",
