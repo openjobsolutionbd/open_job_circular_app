@@ -661,12 +661,32 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-09-26"
+    },
+    "8a7fc6ff4a7a": {
+      "id": "8a7fc6ff4a7a",
+      "site": "প্রথম আলো",
+      "title": "সরকারি চাকরিতে এখনো গোয়েন্দা দিয়ে যাচাই, প্রাথমিকে অনেকের নিয়োগ আটকে",
+      "link": "https://www.prothomalo.com/bangladesh/wfmhxrmwyk",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-09-27"
+    },
+    "c8b08aa9adba": {
+      "id": "c8b08aa9adba",
+      "site": "প্রথম আলো",
+      "title": "জার্মানিতে তথ্যপ্রযুক্তিতে চাকরি: বিদেশি প্রার্থীদের যে যে শর্ত মানতে হবে",
+      "link": "https://www.prothomalo.com/chakri/employment/8jdxqq00w9",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-09-27"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-09-26",
-    "new_count": 4,
+    "date": "2026-09-27",
+    "new_count": 2,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
