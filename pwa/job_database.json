@@ -721,12 +721,52 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-09-29"
+    },
+    "6f468bc6f37f": {
+      "id": "6f468bc6f37f",
+      "site": "প্রথম আলো",
+      "title": "পদক্ষেপ মানবিক উন্নয়ন কেন্দ্রে ২০০ জনের চাকরি, বেতন ২৯,৯৫৩ টাকা পর্যন্ত",
+      "link": "https://www.prothomalo.com/chakri/employment/1utrc6546k",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-09-30"
+    },
+    "5cb503894869": {
+      "id": "5cb503894869",
+      "site": "প্রথম আলো",
+      "title": "যুব ও ক্রীড়া মন্ত্রণালয়ের অধীন চাকরি, পদ ৪৩",
+      "link": "https://www.prothomalo.com/chakri/employment/e7heyv8sbq",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-09-30"
+    },
+    "a95862274786": {
+      "id": "a95862274786",
+      "site": "প্রথম আলো",
+      "title": "জেলা-উপজেলায় চালু হচ্ছে চাকরির নতুন ব্যবস্থা, যেভাবে পাবেন সব তথ্য",
+      "link": "https://www.prothomalo.com/chakri/employment/liv6oj0tay",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-09-30"
+    },
+    "b118a6822bdf": {
+      "id": "b118a6822bdf",
+      "site": "techedu.gov.bd",
+      "title": "অফিস সহকারি-কাম-কম্পিউটার মুদ্রাক্ষরিক পদে পদোন্নতি নিমিত্ত বিভাগীয় নিয়োগ/পদোন্নতি কমিটির সভার নোটিশ",
+      "link": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-techedu/2026/8/f35776ab-2c47-4f3a-8f2e-df9dde101ca1.pdf",
+      "details": {},
+      "is_pdf": true,
+      "status": "new",
+      "first_seen": "2026-09-30"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-09-29",
-    "new_count": 2,
+    "date": "2026-09-30",
+    "new_count": 4,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
