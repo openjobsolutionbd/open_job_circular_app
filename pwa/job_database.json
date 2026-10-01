@@ -765,8 +765,8 @@
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-09-30",
-    "new_count": 4,
+    "date": "2026-10-01",
+    "new_count": 0,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
