@@ -761,12 +761,22 @@
       "is_pdf": true,
       "status": "new",
       "first_seen": "2026-09-30"
+    },
+    "4e72e01fe4af": {
+      "id": "4e72e01fe4af",
+      "site": "প্রথম আলো",
+      "title": "সেপ্টেম্বরে চাকরির বাজার কেমন ছিল, সামনে কী",
+      "link": "https://www.prothomalo.com/chakri/chakri-news/jnh17dogcw",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-10-03"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-10-02",
-    "new_count": 0,
+    "date": "2026-10-03",
+    "new_count": 1,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
