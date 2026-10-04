@@ -771,12 +771,32 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-10-03"
+    },
+    "af043bfac79c": {
+      "id": "af043bfac79c",
+      "site": "প্রথম আলো",
+      "title": "চাকরি-ইন্টার্নশিপের সুযোগ, স্টামফোর্ডে ক্যারিয়ার এক্সপো ২০২৬ অনুষ্ঠিত",
+      "link": "https://www.prothomalo.com/education/campus/mwaif4lbcg",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-10-04"
+    },
+    "b7c23b39f527": {
+      "id": "b7c23b39f527",
+      "site": "প্রথম আলো",
+      "title": "আড়ংয়ে সেলস অ্যাসোসিয়েট পদে চাকরি, পদ ১০০",
+      "link": "https://www.prothomalo.com/chakri/employment/5yw1f825zx",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-10-04"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-10-03",
-    "new_count": 1,
+    "date": "2026-10-04",
+    "new_count": 2,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
