@@ -791,12 +791,42 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-10-04"
+    },
+    "446e1caa209b": {
+      "id": "446e1caa209b",
+      "site": "প্রথম আলো",
+      "title": "কর অঞ্চল-রংপুরে ৩৬ পদে চাকরি, রংপুর-লালমনিরহাট-কুড়িগ্রাম-নীলফামারী-গাইবান্ধাবাসীর সুযোগ",
+      "link": "https://www.prothomalo.com/chakri/employment/fuslltw0j9",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-10-05"
+    },
+    "e8d3540c77e2": {
+      "id": "e8d3540c77e2",
+      "site": "প্রথম আলো",
+      "title": "ল্যাবএইড হাসপাতালে পূর্ণকালীন ও খণ্ডকালীন চাকরির সুযোগ",
+      "link": "https://www.prothomalo.com/chakri/employment/rxhk035wm7",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-10-05"
+    },
+    "1338f0dcffd1": {
+      "id": "1338f0dcffd1",
+      "site": "প্রথম আলো",
+      "title": "একটি চাকরির পেছনে ১,৪৩০ জন! সরকারি চাকরিতে প্রতিযোগিতা কতটা তীব্র",
+      "link": "https://www.prothomalo.com/chakri/chakri-news/j9n1pw1s4t",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-10-05"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-10-04",
-    "new_count": 2,
+    "date": "2026-10-05",
+    "new_count": 3,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
