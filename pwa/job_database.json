@@ -851,12 +851,42 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-10-08"
+    },
+    "8c8caa10fd8d": {
+      "id": "8c8caa10fd8d",
+      "site": "প্রথম আলো",
+      "title": "কুমিল্লা বিশ্ববিদ্যালয়ে চতুর্থ থেকে ২০তম গ্রেডে চাকরি, পদ ৩৫",
+      "link": "https://www.prothomalo.com/chakri/ia76gocvqz",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-10-11"
+    },
+    "5f55c56e5005": {
+      "id": "5f55c56e5005",
+      "site": "প্রথম আলো",
+      "title": "ব্র্যাকে কার্বন ব্যবস্থাপনাবিষয়ক সিনিয়র স্পেশালিস্ট পদে চাকরি",
+      "link": "https://www.prothomalo.com/chakri/employment/t49episf01",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-10-11"
+    },
+    "84e6066c3ff9": {
+      "id": "84e6066c3ff9",
+      "site": "প্রথম আলো",
+      "title": "ঢাকা কর অঞ্চল ২৫–এর অধীনে চাকরি, পদ ৬১, বেতন স্কেল ২০০০০ থেকে ২৪০০০ টাকা",
+      "link": "https://www.prothomalo.com/chakri/employment/rlqi8fvpfg",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-10-11"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-10-10",
-    "new_count": 0,
+    "date": "2026-10-11",
+    "new_count": 3,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
