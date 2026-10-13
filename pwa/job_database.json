@@ -881,12 +881,22 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-10-11"
+    },
+    "d674c0bc4c5b": {
+      "id": "d674c0bc4c5b",
+      "site": "প্রথম আলো",
+      "title": "খেলোয়াড়দের চাকরির বিশেষ সুযোগ দিচ্ছে ব্যাংক এশিয়া",
+      "link": "https://www.prothomalo.com/chakri/chakri-news/su5s5c0cxj",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-10-13"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-10-12",
-    "new_count": 0,
+    "date": "2026-10-13",
+    "new_count": 1,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
