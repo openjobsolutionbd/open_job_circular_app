@@ -891,11 +891,21 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-10-13"
+    },
+    "f2b07e2d53a3": {
+      "id": "f2b07e2d53a3",
+      "site": "প্রথম আলো",
+      "title": "নরসিংদী সিভিল সার্জনের কার্যালয়ে চাকরি, পদ ১১৯",
+      "link": "https://www.prothomalo.com/chakri/employment/ttuiyc4tfv",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-10-14"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-10-13",
+    "date": "2026-10-14",
     "new_count": 1,
     "failed_sites": [
       {
