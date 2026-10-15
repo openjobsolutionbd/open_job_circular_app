@@ -901,12 +901,42 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-10-14"
+    },
+    "a3df9be3507f": {
+      "id": "a3df9be3507f",
+      "site": "প্রথম আলো",
+      "title": "বিভিন্ন সরকারি প্রতিষ্ঠানে শূন্য পদ \n৫ লাখ ২২ হাজার",
+      "link": "https://www.prothomalo.com/bangladesh/2hwvgco5cj",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-10-15"
+    },
+    "436ec968285f": {
+      "id": "436ec968285f",
+      "site": "প্রথম আলো",
+      "title": "নিয়োগ পরীক্ষার প্রশ্নপত্র ফাঁস: চাকরিপ্রার্থীদের কী অপরাধ",
+      "link": "https://nagorik.prothomalo.com/ayojon/c24e4wkkw3",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-10-15"
+    },
+    "40e2aac8f873": {
+      "id": "40e2aac8f873",
+      "site": "techedu.gov.bd",
+      "title": "সরকারি কর্মচারী (আচরণ) বিধিমালা, ১৯৭৯ যথাযথ প্রতিপালন সংক্রান্ত",
+      "link": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-techedu/2026/9/87935322-9492-4ae5-9e7b-eb10910673cf.pdf",
+      "details": {},
+      "is_pdf": true,
+      "status": "new",
+      "first_seen": "2026-10-15"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-10-14",
-    "new_count": 1,
+    "date": "2026-10-15",
+    "new_count": 3,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
