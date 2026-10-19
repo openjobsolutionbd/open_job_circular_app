@@ -961,11 +961,21 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-10-18"
+    },
+    "9c67f12db9df": {
+      "id": "9c67f12db9df",
+      "site": "প্রথম আলো",
+      "title": "প্রশ্নপত্র ফাঁস ও কেন্দ্র-কন্ট্র্যাক্ট: মেধার বদলে টাকার দাপটে দিশাহারা চাকরিপ্রার্থীরা",
+      "link": "https://www.prothomalo.com/chakri/chakri-news/ijsw2452l0",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-10-19"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-10-18",
+    "date": "2026-10-19",
     "new_count": 1,
     "failed_sites": [
       {
