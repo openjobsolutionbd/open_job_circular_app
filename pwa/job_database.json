@@ -1031,12 +1031,32 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-10-21"
+    },
+    "a565656962d7": {
+      "id": "a565656962d7",
+      "site": "প্রথম আলো",
+      "title": "চট্টগ্রাম কর কমিশনারের কার্যালয়ে চাকরির সুযোগ, যে যে যোগ্যতায় আবেদন",
+      "link": "https://www.prothomalo.com/chakri/employment/9o4hpduz2t",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-10-22"
+    },
+    "99b954424d1b": {
+      "id": "99b954424d1b",
+      "site": "প্রথম আলো",
+      "title": "ব্র্যাক ব্যাংকে ইনফরমেশন সিকিউরিটি বিভাগে চাকরি, আবেদন স্নাতক পাসে",
+      "link": "https://www.prothomalo.com/chakri/employment/ryh89l3lu8",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-10-22"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-10-21",
-    "new_count": 3,
+    "date": "2026-10-22",
+    "new_count": 2,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
