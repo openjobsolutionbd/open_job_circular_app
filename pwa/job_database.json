@@ -1081,12 +1081,42 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-10-25"
+    },
+    "6c4cb07d88ac": {
+      "id": "6c4cb07d88ac",
+      "site": "প্রথম আলো",
+      "title": "জেদ্দায় বাংলাদেশ হজ অফিসে চাকরি, বেতন রিয়ালে, আবেদন বাংলাদেশি–সৌদি নাগরিকদের",
+      "link": "https://www.prothomalo.com/chakri/chakri-news/avqy081lz8",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-10-26"
+    },
+    "42ddc426705e": {
+      "id": "42ddc426705e",
+      "site": "প্রথম আলো",
+      "title": "আয়ের চেয়ে ব্যয় বেশি: টানাপোড়েনে বেসরকারি চাকরিজীবীরা",
+      "link": "https://www.prothomalo.com/chakri/chakri-news/sltb2v5de9",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-10-26"
+    },
+    "2688eb4dca04": {
+      "id": "2688eb4dca04",
+      "site": "প্রথম আলো",
+      "title": "ঢাকা কর অঞ্চল-৬–এর অধীন চাকরি, পদ ৪১",
+      "link": "https://www.prothomalo.com/chakri/employment/p7jwg4d6pz",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-10-26"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-10-25",
-    "new_count": 1,
+    "date": "2026-10-26",
+    "new_count": 3,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
