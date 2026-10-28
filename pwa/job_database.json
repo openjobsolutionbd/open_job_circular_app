@@ -1121,12 +1121,52 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-10-27"
+    },
+    "d625e5bfbdc5": {
+      "id": "d625e5bfbdc5",
+      "site": "প্রথম আলো",
+      "title": "গাজীপুর কর অঞ্চলে চাকরি, পদ ৩৪",
+      "link": "https://www.prothomalo.com/chakri/employment/5y1ikpwdsq",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-10-28"
+    },
+    "3b4d585364ce": {
+      "id": "3b4d585364ce",
+      "site": "প্রথম আলো",
+      "title": "অস্ট্রেলিয়ায় বিদেশি স্নাতকেরা চাকরি পেতে কেন ভোগান্তিতে",
+      "link": "https://www.prothomalo.com/education/higher-education/00l1ee2g3t",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-10-28"
+    },
+    "789ee3975ec7": {
+      "id": "789ee3975ec7",
+      "site": "প্রথম আলো",
+      "title": "আরআরএফ-এ চার পদে ৪৪০ জনের চাকরির সুযোগ, পরীক্ষা ৬ নভেম্বর",
+      "link": "https://www.prothomalo.com/chakri/uxlu7292n0",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-10-28"
+    },
+    "dbfe93232609": {
+      "id": "dbfe93232609",
+      "site": "প্রথম আলো",
+      "title": "বেসরকারি চাকরিতে বেতন ‘আলোচনা সাপেক্ষে’, দর-কষাকষি কীভাবে করবেন চাকরিপ্রার্থীরা",
+      "link": "https://www.prothomalo.com/chakri/chakri-news/lz45qrucah",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-10-28"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-10-27",
-    "new_count": 1,
+    "date": "2026-10-28",
+    "new_count": 4,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
