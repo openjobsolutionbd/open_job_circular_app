@@ -1211,11 +1211,21 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-10-30"
+    },
+    "1a9cd125b902": {
+      "id": "1a9cd125b902",
+      "site": "প্রথম আলো",
+      "title": "চাকরি বাঁচানোর লড়াইয়ে ক্যারিক, আর্সেনালের সামনে লিভারপুল",
+      "link": "https://www.prothomalo.com/sports/football/ml27t5okkh",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-10-31"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "new_count": 1,
     "failed_sites": [
       {
