@@ -1261,12 +1261,22 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-11-02"
+    },
+    "c3a20907141e": {
+      "id": "c3a20907141e",
+      "site": "প্রথম আলো",
+      "title": "৬০% স্নাতক ডিগ্রিধারী যোগ্যতা অনুযায়ী চাকরি না পেয়ে করছেন অন্য কাজ",
+      "link": "https://www.prothomalo.com/business/economics/ouz3h9pc4o",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-11-03"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-11-02",
-    "new_count": 2,
+    "date": "2026-11-03",
+    "new_count": 1,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
