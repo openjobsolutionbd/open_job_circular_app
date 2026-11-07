@@ -1341,12 +1341,32 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-11-06"
+    },
+    "c97eebdd257c": {
+      "id": "c97eebdd257c",
+      "site": "প্রথম আলো",
+      "title": "সামরিক চিকিৎসা সার্ভিস মহাপরিদপ্তরের অধীনে চাকরি, পদ ৩০",
+      "link": "https://www.prothomalo.com/chakri/chakri-news/zjy84zy5li",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-11-07"
+    },
+    "65c9a9385d23": {
+      "id": "65c9a9385d23",
+      "site": "প্রথম আলো",
+      "title": "স্টার্টআপ বাংলাদেশ লিমিটেডে চাকরি, আবেদন অনলাইনে",
+      "link": "https://www.prothomalo.com/chakri/employment/bqdkbrgexi",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-11-07"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-11-06",
-    "new_count": 1,
+    "date": "2026-11-07",
+    "new_count": 2,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
