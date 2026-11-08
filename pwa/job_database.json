@@ -1361,12 +1361,42 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-11-07"
+    },
+    "36a703dcae2b": {
+      "id": "36a703dcae2b",
+      "site": "প্রথম আলো",
+      "title": "ঢাকা কর অঞ্চল-১৭ এর অধীন চাকরি, পদ ৫৫",
+      "link": "https://www.prothomalo.com/chakri/employment/rx560rd54h",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-11-08"
+    },
+    "56673d9ad056": {
+      "id": "56673d9ad056",
+      "site": "প্রথম আলো",
+      "title": "সরকারি চাকরিজীবীদের বেতন–ভাতার অসংগতি দূর করতে উদ্যোগ",
+      "link": "https://www.prothomalo.com/business/economics/srkaari-caakrijiibiider-betn-bhaataar-asngti-duur-krte-udyeaag",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-11-08"
+    },
+    "85ef121890fb": {
+      "id": "85ef121890fb",
+      "site": "প্রথম আলো",
+      "title": "সরকারি চাকরিজীবীদের বেতন–ভাতার অসংগতি দূর করতে উদ্যোগ, ছয় মন্ত্রীকে নিয়ে কমিটি গঠন",
+      "link": "https://www.prothomalo.com/business/economics/vouhztxunk",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-11-08"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-11-07",
-    "new_count": 2,
+    "date": "2026-11-08",
+    "new_count": 3,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
