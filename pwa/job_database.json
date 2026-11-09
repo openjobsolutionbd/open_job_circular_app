@@ -1391,12 +1391,22 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-11-08"
+    },
+    "034343d4bce5": {
+      "id": "034343d4bce5",
+      "site": "প্রথম আলো",
+      "title": "ডিগ্রি আছে, চাকরি নেই? ভয় পেয়ো না",
+      "link": "https://www.prothomalo.com/bangladesh/rxj0hn33tl",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-11-09"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-11-08",
-    "new_count": 3,
+    "date": "2026-11-09",
+    "new_count": 1,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
