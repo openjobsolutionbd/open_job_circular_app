@@ -1401,12 +1401,32 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-11-09"
+    },
+    "44691552fabc": {
+      "id": "44691552fabc",
+      "site": "প্রথম আলো",
+      "title": "চাকরির সাক্ষাৎকারে এআই নিয়ে প্রশ্ন আসতে পারে, প্রার্থীরা যেভাবে প্রস্তুতি নেবেন",
+      "link": "https://www.prothomalo.com/chakri/chakri-suggestion/mw8m1bbfwe",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-11-10"
+    },
+    "0b02aac8cd91": {
+      "id": "0b02aac8cd91",
+      "site": "প্রথম আলো",
+      "title": "ডাক বিভাগের অধীনে ১৬৯ পদে চাকরি, বয়স ১৮ হলে আবেদন",
+      "link": "https://www.prothomalo.com/chakri/employment/o10nneoqpi",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-11-10"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-11-09",
-    "new_count": 1,
+    "date": "2026-11-10",
+    "new_count": 2,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
