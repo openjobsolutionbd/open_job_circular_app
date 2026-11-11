@@ -1421,12 +1421,52 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-11-10"
+    },
+    "d06f34e3ceba": {
+      "id": "d06f34e3ceba",
+      "site": "প্রথম আলো",
+      "title": "জাতীয় সংসদ সচিবালয়ে ১১ থেকে ২০ গ্রেডে চাকরি, পদ ১৫৫",
+      "link": "https://www.prothomalo.com/chakri/employment/wpd63luoni",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-11-11"
+    },
+    "8d75714a81e7": {
+      "id": "8d75714a81e7",
+      "site": "প্রথম আলো",
+      "title": "ব্যাংকে চাকরির পরীক্ষা: মুখস্থনির্ভরতা নয়, প্রয়োজন জ্ঞান ও বিশ্লেষণী দক্ষতা",
+      "link": "https://www.prothomalo.com/chakri/chakri-suggestion/21qseoigdb",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-11-11"
+    },
+    "b631cc098cc0": {
+      "id": "b631cc098cc0",
+      "site": "প্রথম আলো",
+      "title": "ঢাকা দক্ষিণ সিটি করপোরেশনে নবম গ্রেডে চাকরি, পদ ২২",
+      "link": "https://www.prothomalo.com/chakri/employment/d8kszuwtqx",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-11-11"
+    },
+    "efb1611cbb4c": {
+      "id": "efb1611cbb4c",
+      "site": "প্রথম আলো",
+      "title": "পেট্রোবাংলায় ৭৫৩ পদে চাকরি : নিয়োগ নীতিমালা ও পরীক্ষার নম্বর বণ্টন দেখুন",
+      "link": "https://www.prothomalo.com/chakri/chakri-news/8obcr815dy",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-11-11"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-11-10",
-    "new_count": 2,
+    "date": "2026-11-11",
+    "new_count": 4,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
