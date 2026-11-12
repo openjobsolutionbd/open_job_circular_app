@@ -1461,12 +1461,32 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-11-11"
+    },
+    "eafac94d4b76": {
+      "id": "eafac94d4b76",
+      "site": "প্রথম আলো",
+      "title": "ব্যাংক এশিয়ায় অফিসার পদে চাকরির সুযোগ, আবেদন ১৯ নভেম্বরের মধ্যে",
+      "link": "https://www.prothomalo.com/chakri/employment/ru8agvswu2",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-11-12"
+    },
+    "88ead6b511df": {
+      "id": "88ead6b511df",
+      "site": "প্রথম আলো",
+      "title": "চাকরি প্রস্তুতিতে গুরুত্ব দেবেন যে পাঁচ বিষয়ে",
+      "link": "https://www.prothomalo.com/chakri/chakri-suggestion/wjevso7upr",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-11-12"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-11-11",
-    "new_count": 4,
+    "date": "2026-11-12",
+    "new_count": 2,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
