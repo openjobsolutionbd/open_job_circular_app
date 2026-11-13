@@ -1481,12 +1481,22 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-11-12"
+    },
+    "adc86e792c7a": {
+      "id": "adc86e792c7a",
+      "site": "প্রথম আলো",
+      "title": "অভিজ্ঞদের পাশাপাশি সদ্য স্নাতকদেরও চাকরির সুযোগ ব্র্যাক ব্যাংকে",
+      "link": "https://www.prothomalo.com/chakri/employment/j5pdcnqkx3",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-11-13"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-11-12",
-    "new_count": 2,
+    "date": "2026-11-13",
+    "new_count": 1,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
