@@ -1531,56 +1531,96 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-11-16"
+    },
+    "704d9191d200": {
+      "id": "704d9191d200",
+      "site": "প্রথম আলো",
+      "title": "সরকারি চাকরিজীবী কেউ আওয়ামী লীগের সঙ্গে যুক্ত কি না, তা তদারকি হচ্ছে: তথ্য উপদেষ্টা",
+      "link": "https://www.prothomalo.com/video/bangladesh/tewe7s9x7p",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-11-17"
+    },
+    "5b09847b1e49": {
+      "id": "5b09847b1e49",
+      "site": "প্রথম আলো",
+      "title": "সরকারি চাকরিজীবী কেউ আওয়ামী লীগের সঙ্গে যুক্ত কি না, তা তদারকি হচ্ছে: তথ্য উপদেষ্টা",
+      "link": "https://www.prothomalo.com/video/bangladesh/tltxdvnaul",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-11-17"
+    },
+    "a7e91577216f": {
+      "id": "a7e91577216f",
+      "site": "প্রথম আলো",
+      "title": "সরকারি চাকরিতে থেকে কেউ আওয়ামী লীগের সঙ্গে যুক্ত কি না, তদারকি হচ্ছে: জাহেদ উর রহমান",
+      "link": "https://www.prothomalo.com/bangladesh/r4ku3v927a",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-11-17"
+    },
+    "43d8edb4436d": {
+      "id": "43d8edb4436d",
+      "site": "প্রথম আলো",
+      "title": "ব্যাংকের ৯০৩ পদের চাকরির পরীক্ষার সূচি প্রকাশ, পরীক্ষা শুরু সাড়ে ৯টায়",
+      "link": "https://www.prothomalo.com/chakri/chakri-news/kyp95yj9do",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-11-17"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-11-16",
-    "new_count": 3,
+    "date": "2026-11-17",
+    "new_count": 4,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
-        "error": "HTTPSConnectionPool(host='brdb.gov.bd', port=443): Max retries exceeded with url: /site/view/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='brdb.gov.bd', port=443) at 0x7359f9c15a50>, 'Connection to brdb.gov.bd timed out. (connect timeout=45)'))"
+        "error": "HTTPSConnectionPool(host='brdb.gov.bd', port=443): Max retries exceeded with url: /site/view/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='brdb.gov.bd', port=443) at 0x75375cbc0e10>, 'Connection to brdb.gov.bd timed out. (connect timeout=45)'))"
       },
       {
         "site": "dmlc.gov.bd",
-        "error": "HTTPSConnectionPool(host='dmlc.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='dmlc.gov.bd', port=443) at 0x7359f9cd0f10>, 'Connection to dmlc.gov.bd timed out. (connect timeout=45)'))"
+        "error": "HTTPSConnectionPool(host='dmlc.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='dmlc.gov.bd', port=443) at 0x75375cbc2610>, 'Connection to dmlc.gov.bd timed out. (connect timeout=45)'))"
       },
       {
         "site": "bjri.gov.bd",
-        "error": "HTTPSConnectionPool(host='bjri.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='bjri.gov.bd', port=443) at 0x7359f9c16790>, 'Connection to bjri.gov.bd timed out. (connect timeout=45)'))"
+        "error": "HTTPSConnectionPool(host='bjri.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='bjri.gov.bd', port=443) at 0x75375d78e590>, 'Connection to bjri.gov.bd timed out. (connect timeout=45)'))"
       },
       {
         "site": "dwa.gov.bd",
-        "error": "HTTPSConnectionPool(host='dwa.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='dwa.gov.bd', port=443) at 0x7359f99b9c10>, 'Connection to dwa.gov.bd timed out. (connect timeout=45)'))"
+        "error": "HTTPSConnectionPool(host='dwa.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='dwa.gov.bd', port=443) at 0x75375cbd0b10>, 'Connection to dwa.gov.bd timed out. (connect timeout=45)'))"
       },
       {
         "site": "cga.gov.bd",
-        "error": "HTTPSConnectionPool(host='cga.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='cga.gov.bd', port=443) at 0x7359f9cc97d0>, 'Connection to cga.gov.bd timed out. (connect timeout=45)'))"
+        "error": "HTTPSConnectionPool(host='cga.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='cga.gov.bd', port=443) at 0x75375cbc6390>, 'Connection to cga.gov.bd timed out. (connect timeout=45)'))"
       },
       {
         "site": "bgb.gov.bd",
-        "error": "HTTPSConnectionPool(host='bgb.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='bgb.gov.bd', port=443) at 0x7359f99c2610>, 'Connection to bgb.gov.bd timed out. (connect timeout=45)'))"
+        "error": "HTTPSConnectionPool(host='bgb.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='bgb.gov.bd', port=443) at 0x75375cbc3bd0>, 'Connection to bgb.gov.bd timed out. (connect timeout=45)'))"
       },
       {
         "site": "rajshahi.gov.bd",
-        "error": "HTTPSConnectionPool(host='rajshahi.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='rajshahi.gov.bd', port=443) at 0x7359f9d4e890>, 'Connection to rajshahi.gov.bd timed out. (connect timeout=45)'))"
+        "error": "HTTPSConnectionPool(host='rajshahi.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='rajshahi.gov.bd', port=443) at 0x75375cd59890>, 'Connection to rajshahi.gov.bd timed out. (connect timeout=45)'))"
       },
       {
         "site": "bof.gov.bd",
-        "error": "HTTPSConnectionPool(host='bof.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='bof.gov.bd', port=443) at 0x7359f9c14210>, 'Connection to bof.gov.bd timed out. (connect timeout=45)'))"
+        "error": "HTTPSConnectionPool(host='bof.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='bof.gov.bd', port=443) at 0x75375cbb2290>, 'Connection to bof.gov.bd timed out. (connect timeout=45)'))"
       },
       {
         "site": "plancomm.gov.bd",
-        "error": "HTTPSConnectionPool(host='plancomm.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='plancomm.gov.bd', port=443) at 0x7359f99bbfd0>, 'Connection to plancomm.gov.bd timed out. (connect timeout=45)'))"
+        "error": "HTTPSConnectionPool(host='plancomm.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='plancomm.gov.bd', port=443) at 0x75375cbc4590>, 'Connection to plancomm.gov.bd timed out. (connect timeout=45)'))"
       },
       {
         "site": "bkkb.gov.bd",
-        "error": "HTTPSConnectionPool(host='bkkb.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='bkkb.gov.bd', port=443) at 0x7359fc3c9250>, 'Connection to bkkb.gov.bd timed out. (connect timeout=45)'))"
+        "error": "HTTPSConnectionPool(host='bkkb.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='bkkb.gov.bd', port=443) at 0x75375cba9d50>, 'Connection to bkkb.gov.bd timed out. (connect timeout=45)'))"
       },
       {
         "site": "dnc.gov.bd",
-        "error": "HTTPSConnectionPool(host='dnc.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='dnc.gov.bd', port=443) at 0x7359f9d4e990>, 'Connection to dnc.gov.bd timed out. (connect timeout=45)'))"
+        "error": "HTTPSConnectionPool(host='dnc.gov.bd', port=443): Max retries exceeded with url: /pages/notices (Caused by ConnectTimeoutError(<HTTPSConnection(host='dnc.gov.bd', port=443) at 0x75375cd5a450>, 'Connection to dnc.gov.bd timed out. (connect timeout=45)'))"
       }
     ]
   }
