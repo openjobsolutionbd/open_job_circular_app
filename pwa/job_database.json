@@ -1581,12 +1581,22 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-11-18"
+    },
+    "6228b9508ab4": {
+      "id": "6228b9508ab4",
+      "site": "প্রথম আলো",
+      "title": "১০ দিন পর ফ্লাইট, চাকরি ছেড়ে সুন্দরবনে বেড়াতে গিয়ে জানলেন এজেন্সি উধাও",
+      "link": "https://www.prothomalo.com/bangladesh/x3zind3vkt",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-11-20"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-11-19",
-    "new_count": 0,
+    "date": "2026-11-20",
+    "new_count": 1,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
