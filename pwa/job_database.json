@@ -1591,12 +1591,22 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-11-20"
+    },
+    "fe251b21e396": {
+      "id": "fe251b21e396",
+      "site": "প্রথম আলো",
+      "title": "বাংলাদেশ পেট্রোলিয়াম করপোরেশনে ৯ম–সহ বিভিন্ন গ্রেডে চাকরির সুযোগ",
+      "link": "https://www.prothomalo.com/chakri/chakri-news/sx8x63c97y",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-11-22"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-11-21",
-    "new_count": 0,
+    "date": "2026-11-22",
+    "new_count": 1,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
