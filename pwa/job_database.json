@@ -1601,12 +1601,32 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-11-22"
+    },
+    "5bd6709a4867": {
+      "id": "5bd6709a4867",
+      "site": "techedu.gov.bd",
+      "title": "নেট মিটারিং (OPEX Model) পদ্ধতিতে সোলার সিস্টেম স্থাপনের প্রশাসনিক অনুমোদন প্রসঙ্গে।",
+      "link": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-techedu/2026/10/c1ca3877-a3c8-494e-aa8c-acabbd79ddee.pdf",
+      "details": {},
+      "is_pdf": true,
+      "status": "new",
+      "first_seen": "2026-11-23"
+    },
+    "c913618d6970": {
+      "id": "c913618d6970",
+      "site": "techedu.gov.bd",
+      "title": "কারিগরি শিক্ষা অধিদপ্তরাধীন প্রতিষ্ঠানসমূহে ২০২১ সাল হতে অদ্যাবধি নিয়োগপ্রাপ্ত কর্মচারীদের পুলিশ ভেরিফিকেশন সম্পন্ন করণ প্রসঙ্গে",
+      "link": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-techedu/2026/10/d5879ddd-11b0-4afb-a147-0be3a02fc7bf.pdf",
+      "details": {},
+      "is_pdf": true,
+      "status": "new",
+      "first_seen": "2026-11-23"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-11-22",
-    "new_count": 1,
+    "date": "2026-11-23",
+    "new_count": 2,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
