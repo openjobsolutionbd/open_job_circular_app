@@ -1681,12 +1681,22 @@
       "is_pdf": false,
       "status": "new",
       "first_seen": "2026-11-26"
+    },
+    "776ae17cbb07": {
+      "id": "776ae17cbb07",
+      "site": "প্রথম আলো",
+      "title": "ব্যাংকের চাকরি ছেড়ে কারুপণ্যের ব্যবসা, এখন মাসে বিক্রি ১৫ লাখ টাকা",
+      "link": "https://www.prothomalo.com/business/%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BE/gskudwm8or",
+      "details": {},
+      "is_pdf": false,
+      "status": "new",
+      "first_seen": "2026-11-28"
     }
   },
   "push_subscriptions": [],
   "last_run": {
-    "date": "2026-11-27",
-    "new_count": 0,
+    "date": "2026-11-28",
+    "new_count": 1,
     "failed_sites": [
       {
         "site": "brdb.gov.bd",
